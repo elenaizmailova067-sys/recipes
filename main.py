@@ -15,7 +15,3 @@ def get_shop_list_by_dishes(dishes, person_count, cook_book):
                 else:
                     # Если продукт уже есть, суммируем количество
                     shop_list[name]['quantity'] += quantity
-        else:
-            print(f"Блюда '{dish}' нет в книге рецептов")
-
-    return shop_list
